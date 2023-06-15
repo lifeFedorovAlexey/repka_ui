@@ -4,7 +4,7 @@ module.exports = {
         name: 'repkaui',
         exec_mode: 'cluster',
         instances: 'max',
-        script: './node_modules/nuxt/bin/nuxt.js',
+        script: './.output/server/index.mjs',
         args: 'start',
       },
     ],
