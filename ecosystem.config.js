@@ -1,7 +1,7 @@
 module.exports = {
     apps: [
       {
-        name: 'RepkaUI',
+        name: 'repkaui',
         exec_mode: 'cluster',
         instances: 'max',
         script: './node_modules/nuxt/bin/nuxt.js',
